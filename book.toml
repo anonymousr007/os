@@ -1,0 +1,19 @@
+[book]
+title = "Operating System Book"
+authors = ["Rishabh"]
+description = ""
+language = "en"
+multilingual = false
+src = "src"
+
+[build]
+create-missing = false
+
+[rust]
+edition = "2018"
+
+[output.html]
+default-theme = "rust"
+git-repository-url = "https://github.com/anonymousr007/os"
+git-repository-icon = "fa-github"
+mathjax-support = true
